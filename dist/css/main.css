@@ -2,7 +2,7 @@
 
     Project: Test Proj
     Author: XHTMLized
-    Last updated: Thu Nov 26 2015 10:46:47
+    Last updated: Thu Nov 26 2015 11:01:51
 
     1. Sprites
     2. Normalize
@@ -2175,6 +2175,7 @@ a:hover {
   background-position: 0px 0px;
   width: 22px;
   height: 22px;
+  background-image: url(../img/common/sprites@1x.png);
 }
 
 .social-networks span.twitter {
@@ -2182,6 +2183,7 @@ a:hover {
   background-position: 0px -24px;
   width: 22px;
   height: 22px;
+  background-image: url(../img/common/sprites@1x.png);
 }
 
 .social-networks span.google {
@@ -2189,6 +2191,7 @@ a:hover {
   background-position: -24px 0px;
   width: 22px;
   height: 22px;
+  background-image: url(../img/common/sprites@1x.png);
 }
 
 .aside-list li {
@@ -2209,6 +2212,7 @@ a:hover {
   background-position: -24px -24px;
   width: 12px;
   height: 9px;
+  background-image: url(../img/common/sprites@1x.png);
 }
 
 .widget {
@@ -2294,6 +2298,7 @@ a:hover {
   background-position: -24px -24px;
   width: 12px;
   height: 9px;
+  background-image: url(../img/common/sprites@1x.png);
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;

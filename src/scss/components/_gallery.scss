@@ -63,6 +63,7 @@
     &:after {
       @include sprite($sprite-1x-arrow);
 
+      background-image: url(../img/common/sprites@1x.png);
       display: inline-block;
       vertical-align: middle;
       margin-left: 10px;
