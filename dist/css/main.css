@@ -2,7 +2,7 @@
 
     Project: Test Proj
     Author: XHTMLized
-    Last updated: Thu Nov 26 2015 11:01:51
+    Last updated: Thu Nov 26 2015 18:17:20
 
     1. Sprites
     2. Normalize
@@ -2241,6 +2241,35 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.gallery-block .column {
+  position: relative;
+}
+
+.gallery-block .column + .column:after {
+  position: absolute;
+  top: -999px;
+  bottom: -999px;
+  border-left: 1px dotted #d9cbb6;
+  width: 0;
+  content: '';
+  left: 0;
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .gallery-block .column + .column:after {
+    display: block;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .gallery-block .column + .column .header {
+    border-left: 1px dotted rgba(255, 255, 255, 0.5);
+  }
+
+}
+
 .gallery-block .header {
   box-shadow: 0 2px rgba(0, 0, 0, 0.1);
   background: #fb2e6d;
@@ -2248,6 +2277,8 @@ a:hover {
   background: linear-gradient(to bottom, #fb2e6d 0%, #e61052 50%);
   margin: 0 -10px;
   padding: 21px 30px;
+  position: relative;
+  z-index: 1;
 }
 
 .gallery-block h2 {
