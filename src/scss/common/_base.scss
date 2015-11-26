@@ -1,0 +1,29 @@
+
+// Common - Base
+//------------------------------------------------------------------------------
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  font-family: $font-arial;
+  font-size: $font-size;
+  line-height: $font-line-height;
+  min-width: 320px;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

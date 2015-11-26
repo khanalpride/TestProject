@@ -1,0 +1,19 @@
+//== Icons
+$icon-font-path: "../fonts/";
+
+$grid-gutter-width: 20px;
+$container-large-desktop: 960px + $grid-gutter-width;
+
+$screen-lg: 1024px;
+
+$body-bg: #eae2d7;
+$text-color: #97866f;
+$link-color: $text-color;
+
+$font-size-base: 12px;
+$line-height-base: 1.6666667;
+
+$font-size-h1: floor(($font-size-base * 2.6));
+$font-size-h2: floor(($font-size-base * 1));
+$font-size-h3: ceil(($font-size-base * 1.08333333333333));
+$font-size-h4: floor(($font-size-base * 1.16666666666667));

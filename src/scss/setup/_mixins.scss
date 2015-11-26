@@ -1,0 +1,18 @@
+
+// Mixins
+//------------------------------------------------------------------------------
+
+// Use with @extend %clearfix;
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+%listreset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

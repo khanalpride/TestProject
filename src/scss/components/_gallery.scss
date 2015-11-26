@@ -1,0 +1,72 @@
+/* Gallery block styles */
+.gallery-block {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px rgba(0,0,0,.05);
+  background: #fff;
+  margin-bottom: 20px;
+
+  .header {
+    box-shadow: 0 2px rgba(0,0,0,.1);
+    background: #fb2e6d;
+    background: linear-gradient(to bottom,  #fb2e6d 0%,#e61052 50%);
+    margin: 0 -10px;
+    padding: 21px 30px;
+  }
+
+  h2 {
+    margin: 0;
+    color: #fff;
+    text-shadow: -1px -1px rgba(0,0,0,.2);
+    font-weight: bold;
+  }
+
+  h3 {
+    color: #2a1f0f;
+    margin: 0 0 13px;
+    font-weight: bold;
+  }
+
+}
+
+.article-block {
+  padding: 18px 0 11px;
+}
+
+
+.article {
+  padding: 12px 20px;
+
+  .description {
+    @extend %clearfix;
+  }
+
+  .img {
+    float: left;
+    margin: 5px 20px 20px 0;
+    border: 1px solid #eae1d4;
+    padding: 2px;
+    width: 100px;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .text-wrap {
+    overflow: hidden;
+  }
+
+  .btn-more {
+    color: #e61052;
+    &:after {
+      @include sprite($sprite-1x-arrow);
+
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+      content: '';
+    }
+  }
+}

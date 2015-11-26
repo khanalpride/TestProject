@@ -1,0 +1,26 @@
+{
+  "generator-xh": {
+    "config": {
+      "projectName": "Test Proj",
+      "authorName": "XHTMLized",
+      "useBranding": true,
+      "reloader": "BrowserSync",
+      "devServer": true,
+      "cssPreprocessor": "scss",
+      "cssPrefix": "_",
+      "ignoreDist": false,
+      "isWP": false,
+      "extension": "html",
+      "features": {
+        "useJquery": true,
+        "useOptim": true,
+        "useSprites": true,
+        "useBootstrap": true,
+        "useModernizr": true
+      }
+    },
+    "pages": [
+      "home"
+    ]
+  }
+}
